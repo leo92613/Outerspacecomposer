@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: 0851a69a76a6f4e4988f3b07e0eecc30
+timeCreated: 1454553951
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Base Human
+    100002: Base Human2Bone001
+    100004: Base Human2Bone001 1
+    100006: Base Human2Bone001Bone001
+    100008: Base Human2Bone001Bone001 1
+    100010: Base Human2Bone002
+    100012: Base Human2Bone002 1
+    100014: Base Human2Bone003
+    100016: Base Human2Bone003 1
+    100018: Base Human2Bone004
+    100020: Base Human2Bone004 1
+    100022: Base HumanLArm11
+    100024: Base HumanLArm12
+    100026: Base HumanLArm13
+    100028: Base HumanLArm21
+    100030: Base HumanLArm22
+    100032: Base HumanLArmCollarbone
+    100034: Base HumanLArmCollarboneGizmo
+    100036: Base HumanLLeg11
+    100038: Base HumanLLeg12
+    100040: Base HumanLLeg21
+    100042: Base HumanLLeg22
+    100044: Base HumanLLegPlatform
+    100046: Base HumanLLegUpVectorNode
+    100048: Base HumanLLegUpVectorNodeGizmo
+    100050: Base HumanPelvis001
+    100052: Base HumanPelvis001Gizmo
+    100054: Base HumanPelvis002
+    100056: Base HumanPelvis002Gizmo
+    100058: Base HumanPelvis003
+    100060: Base HumanPelvis003Bone001
+    100062: Base HumanPelvis003Bone001Bone001
+    100064: Base HumanPelvis003Bone001Bone001 1
+    100066: Base HumanPelvis003Bone002
+    100068: Base HumanPelvis003Bone003
+    100070: Base HumanPelvis003Bone004
+    100072: Base HumanPelvis003Gizmo
+    100074: Base HumanRArm11
+    100076: Base HumanRArm12
+    100078: Base HumanRArm13
+    100080: Base HumanRArm21
+    100082: Base HumanRArm22
+    100084: Base HumanRArmCollarbone
+    100086: Base HumanRArmCollarboneGizmo
+    100088: Base HumanRLeg11
+    100090: Base HumanRLeg12
+    100092: Base HumanRLeg21
+    100094: Base HumanRLeg22
+    100096: Base HumanRLegPlatform
+    100098: Base HumanRLegUpVectorNode
+    100100: Base HumanRLegUpVectorNodeGizmo
+    100102: Base HumanSpine
+    100104: Base HumanSpine1
+    100106: Base HumanSpine2
+    100108: Base HumanTail1
+    100110: Base HumanTail2
+    100112: Base HumanTail3
+    100114: Base HumanTail4
+    100116: Base HumanTail5
+    100118: Bat
+    100120: //RootNode
+    100122: Horn01
+    100124: Horn02
+    100126: Tail
+    100128: Teeth
+    400000: Base Human
+    400002: Base Human2Bone001
+    400004: Base Human2Bone001 1
+    400006: Base Human2Bone001Bone001
+    400008: Base Human2Bone001Bone001 1
+    400010: Base Human2Bone002
+    400012: Base Human2Bone002 1
+    400014: Base Human2Bone003
+    400016: Base Human2Bone003 1
+    400018: Base Human2Bone004
+    400020: Base Human2Bone004 1
+    400022: Base HumanLArm11
+    400024: Base HumanLArm12
+    400026: Base HumanLArm13
+    400028: Base HumanLArm21
+    400030: Base HumanLArm22
+    400032: Base HumanLArmCollarbone
+    400034: Base HumanLArmCollarboneGizmo
+    400036: Base HumanLLeg11
+    400038: Base HumanLLeg12
+    400040: Base HumanLLeg21
+    400042: Base HumanLLeg22
+    400044: Base HumanLLegPlatform
+    400046: Base HumanLLegUpVectorNode
+    400048: Base HumanLLegUpVectorNodeGizmo
+    400050: Base HumanPelvis001
+    400052: Base HumanPelvis001Gizmo
+    400054: Base HumanPelvis002
+    400056: Base HumanPelvis002Gizmo
+    400058: Base HumanPelvis003
+    400060: Base HumanPelvis003Bone001
+    400062: Base HumanPelvis003Bone001Bone001
+    400064: Base HumanPelvis003Bone001Bone001 1
+    400066: Base HumanPelvis003Bone002
+    400068: Base HumanPelvis003Bone003
+    400070: Base HumanPelvis003Bone004
+    400072: Base HumanPelvis003Gizmo
+    400074: Base HumanRArm11
+    400076: Base HumanRArm12
+    400078: Base HumanRArm13
+    400080: Base HumanRArm21
+    400082: Base HumanRArm22
+    400084: Base HumanRArmCollarbone
+    400086: Base HumanRArmCollarboneGizmo
+    400088: Base HumanRLeg11
+    400090: Base HumanRLeg12
+    400092: Base HumanRLeg21
+    400094: Base HumanRLeg22
+    400096: Base HumanRLegPlatform
+    400098: Base HumanRLegUpVectorNode
+    400100: Base HumanRLegUpVectorNodeGizmo
+    400102: Base HumanSpine
+    400104: Base HumanSpine1
+    400106: Base HumanSpine2
+    400108: Base HumanTail1
+    400110: Base HumanTail2
+    400112: Base HumanTail3
+    400114: Base HumanTail4
+    400116: Base HumanTail5
+    400118: Bat
+    400120: //RootNode
+    400122: Horn01
+    400124: Horn02
+    400126: Tail
+    400128: Teeth
+    2300000: Horn01
+    2300002: Horn02
+    2300004: Teeth
+    3300000: Horn01
+    3300002: Horn02
+    3300004: Teeth
+    4300000: Bat
+    4300002: Horn01
+    4300004: Horn02
+    4300006: Teeth
+    4300008: Tail
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Bat
+    13700002: Tail
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
