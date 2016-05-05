@@ -25,7 +25,7 @@ public class AniManager : MonoBehaviour {
 		scaler = (new Vector3 (Mathf.Sin (time*speed), Mathf.Sin (time*speed), Mathf.Sin (time*speed))*0.1f + new Vector3 (1, 1, 1));
 		for (int i =0;i<5;i++)
 			//if (planets [i].GetComponent<ScalingTest> ().enabled == true)
-			planets [i].GetComponent<ScalingTest> ().scaler = scaler*5*size[i];
+			planets [i].GetComponent<ScalingTest> ().scaler = scaler*5*size[i]/8f;
 		
 	}
 }
