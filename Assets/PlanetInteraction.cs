@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[RequireComponent (typeof (BoxCollider))]
+[RequireComponent (typeof (SphereCollider))]
 [RequireComponent (typeof (AudioSource))]
 
 public class PlanetInteraction : MonoBehaviour {
-	BoxCollider collider;
+	SphereCollider collider;
 	AudioSource music;
 	public AudioClip[] source;
 	bool playnow;
@@ -16,7 +16,7 @@ public class PlanetInteraction : MonoBehaviour {
 	private float time;
 	// Use this for initialization
 	void Start () {
-		collider = GetComponent<BoxCollider>();
+		collider = GetComponent<SphereCollider>();
 		collider.isTrigger = true;
 		music = GetComponent<AudioSource> ();
 		isupdate = false;

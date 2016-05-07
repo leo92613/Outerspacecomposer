@@ -10,7 +10,7 @@ public class RandomStarfield : StarfieldBase
     public float myStarSize = 100;
 
     [Tooltip("Generate stars in the world around (0,0,0); otherwise generate around the transform position")]
-    public bool myCenterAroundZero = true;
+    public bool myCenterAroundZero = false;
 
     public Material myStarMaterial;
 
