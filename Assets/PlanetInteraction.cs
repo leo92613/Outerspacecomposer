@@ -14,8 +14,15 @@ public class PlanetInteraction : MonoBehaviour {
 	bool istouch;
 	float touchtime;
 	private float time;
+	private Renderer render;
+	private Shader normal;
+	private Shader active;
 	// Use this for initialization
 	void Start () {
+		render = GetComponent<Renderer> ();
+		active = render.material.shader;
+		normal = Shader.Find ("Standard");
+		render.material.shader = normal;
 		collider = GetComponent<SphereCollider>();
 		collider.isTrigger = true;
 		music = GetComponent<AudioSource> ();
@@ -79,9 +86,11 @@ public class PlanetInteraction : MonoBehaviour {
 			if (music.isPlaying) {
 				music.Pause ();
 				music.clip = source [0];
+				render.material.shader = normal;
 				GetComponent<ScalingTest> ().enabled = false;
 			} else {
 				music.Play ();
+				render.material.shader = active;
 				GetComponent<ScalingTest> ().enabled = true;
 			}
 		}  

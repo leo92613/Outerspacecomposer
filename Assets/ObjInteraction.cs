@@ -13,8 +13,15 @@ public class ObjInteraction : MonoBehaviour {
 	public bool ischosen;
 	private Vector3 scalerfactor;
 	public GameObject[] peer;
+	//private Renderer render;
+	//private Shader normal;
+	//private Shader active;
 	// Use this for initializationß
 	void Start () {
+		//render = GetComponent<Renderer> ();
+		//active = render.material.shader;
+		//normal = Shader.Find ("Almgp/two_side_shader");
+		//render.material.shader = normal;
 		collider = GetComponent<BoxCollider> ();
 		collider.isTrigger = true;
 		Planet = GetComponent<RotateAround> ().center;
@@ -33,7 +40,11 @@ public class ObjInteraction : MonoBehaviour {
 		if (touchtime > 1f)
 			istouch = true;
 		if (ischosen) {
-			transform.localScale = scalerfactor * Mathf.Sin (Time.time * 5f)*0.07f + scalerfactor;//new Vector3 (Mathf.Sin (Time.time * 5f), Mathf.Sin (Time.time * 5f), Mathf.Sin (Time.time * 5f)) * 0.3f  + scalerfactor;
+			//render.material.shader = active;
+			transform.localScale = scalerfactor * Mathf.Sin (Time.time * 5f)*0.15f + scalerfactor;//new Vector3 (Mathf.Sin (Time.time * 5f), Mathf.Sin (Time.time * 5f), Mathf.Sin (Time.time * 5f)) * 0.3f  + scalerfactor;
+		}
+		if (!ischosen) {
+			//render.material.shader = normal;
 		}
 	}
 	public bool IsHand(Collider other)
