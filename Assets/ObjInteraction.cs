@@ -16,7 +16,7 @@ public class ObjInteraction : MonoBehaviour {
 	//private Renderer render;
 	//private Shader normal;
 	//private Shader active;
-	// Use this for initializationß
+	// Use this for initialization
 	void Start () {
 		//render = GetComponent<Renderer> ();
 		//active = render.material.shader;
@@ -41,7 +41,7 @@ public class ObjInteraction : MonoBehaviour {
 			istouch = true;
 		if (ischosen) {
 			//render.material.shader = active;
-			transform.localScale = scalerfactor * Mathf.Sin (Time.time * 5f)*0.15f + scalerfactor;//new Vector3 (Mathf.Sin (Time.time * 5f), Mathf.Sin (Time.time * 5f), Mathf.Sin (Time.time * 5f)) * 0.3f  + scalerfactor;
+			transform.localScale = scalerfactor * Mathf.Sin (Time.time * 5f)*0.2f + scalerfactor;//new Vector3 (Mathf.Sin (Time.time * 5f), Mathf.Sin (Time.time * 5f), Mathf.Sin (Time.time * 5f)) * 0.3f  + scalerfactor;
 		}
 		if (!ischosen) {
 			//render.material.shader = normal;

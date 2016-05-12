@@ -21,7 +21,7 @@ public class PlanetInteraction : MonoBehaviour {
 	void Start () {
 		render = GetComponent<Renderer> ();
 		active = render.material.shader;
-		normal = Shader.Find ("Standard");
+		normal = Shader.Find ("Almgp/two_side_shader");
 		render.material.shader = normal;
 		collider = GetComponent<SphereCollider>();
 		collider.isTrigger = true;
